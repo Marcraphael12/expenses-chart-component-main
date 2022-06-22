@@ -58,11 +58,17 @@ $Very-pale-orange: hsl(33, 100%, 98%);
 	}
 }
 
-.attribution { 
-	font-size: 11px;
-	text-align: center;
+/*body*/
+body {
 
-	a {
-		color: hsl(228, 45%, 44%);
+	
+	.attribution { 
+		font-size: 11px;
+		text-align: center;
+
+		a {
+			color: hsl(228, 45%, 44%);
+		}
 	}
 }
+
