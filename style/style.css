@@ -1,5 +1,5 @@
 * {
-  font-size: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
@@ -42,11 +42,22 @@
 }
 
 /*body*/
-body .attribution {
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27deg, 66%, 92%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attribution {
   font-size: 11px;
   text-align: center;
 }
-body .attribution a {
+.attribution a {
   color: hsl(228deg, 45%, 44%);
 }
 
