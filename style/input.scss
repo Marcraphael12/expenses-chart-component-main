@@ -112,4 +112,17 @@ body {
       font-weight: 700;
     }
   }
+
+  /*card body*/
+  .card-body {
+    width: 100%;
+    height: auto;
+    background-color: $Very-pale-orange;
+    border-radius: 20px;
+
+    >h2 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
 }
