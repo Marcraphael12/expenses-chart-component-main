@@ -41,6 +41,10 @@ $Very-pale-orange: hsl(33, 100%, 98%);
 .display-flex {
   display: flex;
 
+  &-column {
+    flex-direction: column;
+  }
+
   &-wrap {
     flex-wrap: wrap;
   }
@@ -77,4 +81,11 @@ body {
   a {
     color: hsl(228, 45%, 44%);
   }
+}
+
+/*main card*/
+.main-card {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
