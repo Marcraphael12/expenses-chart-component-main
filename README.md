@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Expenses chart component coding challenge](./design/illustration.png)
 
 ### Links
 
