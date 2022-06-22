@@ -71,6 +71,7 @@ body {
   height: auto;
   /*card head*/
   /*card body*/
+  /*card foot*/
 }
 .main-card .card-head {
   width: 100%;
@@ -134,6 +135,41 @@ body {
   color: hsl(28deg, 10%, 53%);
   font-weight: 400;
   font-size: 12px;
+}
+.main-card .card-foot {
+  width: 100%;
+  height: auto;
+}
+.main-card .card-foot > ul {
+  width: 100%;
+  height: auto;
+}
+.main-card .card-foot > ul > li:nth-child(1) > h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(28deg, 10%, 53%);
+  margin-bottom: 5px;
+}
+.main-card .card-foot > ul > li:nth-child(1) > span {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+}
+.main-card .card-foot > ul > li:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main-card .card-foot > ul > li:nth-child(2) > span {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+  margin-bottom: 5px;
+}
+.main-card .card-foot > ul > li:nth-child(2) > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(28deg, 10%, 53%);
 }
 
 /*# sourceMappingURL=style.css.map */
