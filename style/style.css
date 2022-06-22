@@ -69,6 +69,27 @@ body {
   width: 100%;
   max-width: 600px;
   height: auto;
+  /*card head*/
+}
+.main-card .card-head {
+  width: 100%;
+  height: auto;
+  background-color: hsl(10deg, 79%, 65%);
+  border-radius: 20px;
+  color: #fff;
+  background-image: url(../images/circles.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.main-card .card-head > h1 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.main-card .card-head > h3 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

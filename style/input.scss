@@ -88,4 +88,28 @@ body {
   width: 100%;
   max-width: 600px;
   height: auto;
+
+  /*card head*/
+  .card-head {
+    width: 100%;
+    height: auto;
+    background-color: $Soft-red;
+    border-radius: 20px;
+    color: #fff;
+    background-image: url(../images/circles.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    >h1{
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    >h3 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
 }
