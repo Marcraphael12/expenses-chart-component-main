@@ -7,6 +7,39 @@
   padding: 0;
 }
 
+/*global*/
+.p20 {
+  padding: 20px;
+}
+
+.ml10 {
+  margin: 10px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.display-flex {
+  display: flex;
+}
+.display-flex-wrap {
+  flex-wrap: wrap;
+}
+.display-flex-justify-center {
+  justify-content: center;
+}
+.display-flex-justify-space-between {
+  justify-content: space-between;
+}
+.display-flex-align-center {
+  align-items: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

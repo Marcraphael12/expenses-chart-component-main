@@ -7,6 +7,44 @@
 	padding: 0;
 }
 
+/*global*/
+.p20 {
+	padding: 20px;
+}
+
+.ml10 {
+	margin: 10px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.display-flex {
+	display: flex;
+
+	&-wrap {
+		flex-wrap: wrap;
+	}
+
+	&-justify-center {
+		justify-content: center;
+	}
+
+	&-justify-space-between {
+		justify-content: space-between;
+	}
+
+	&-align-center {
+		align-items: center;
+	}
+}
+
+
 .attribution { 
 	font-size: 11px;
 	text-align: center;
